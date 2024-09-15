@@ -1,5 +1,6 @@
 <template>
  
+ <ArticleComponent/>
  
 
  <article>
@@ -70,12 +71,19 @@
 </template>
 
 <script>
+
+import ArticleComponent from './ArticleComponent.vue';
+
+
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  name: 'App',
+  components: {
+    ArticleComponent,
+    
   }
 }
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

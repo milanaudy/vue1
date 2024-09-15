@@ -1,6 +1,8 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/1.jpg"> -->
   <HeaderComponents msg="vazne to funguje s componentami "/>
+
+
   
   <HelloWorld msg="vazne to funguje "/>
 
@@ -12,6 +14,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import HeaderComponents from './components/HeaderComponent.vue'
 import FooterComponent from './components/FooterComponent.vue';
+
 
 export default {
   name: 'App',
